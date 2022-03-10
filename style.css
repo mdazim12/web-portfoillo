@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav{display: flex;border-bottom: 1px solid red;background: #24292F;}
+
+.menu_logo a img{
+    width: 60px;
+    text-align: center;margin: auto;
+    padding: 20px;}
+
+img{width: 100%;}
+
+.menu_logo{
+    width: 30%;
+    height: auto;
+}
+
+.nav_menu{
+    width: 70%;
+    float: right;}
+
+.munu_list{
+ text-align: center;
+}
+
+.munu_list li{
+    list-style-type: none;
+    float: left;
+    padding:5px 10px;
+}
+
+.munu_list li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 25px;
+}
+.munu_list li a:hover{
+    color: red;
+}
