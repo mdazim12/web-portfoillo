@@ -3,6 +3,14 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+ p{
+    line-height:27px;
+}
 
  /*------------------- Header css strat--------------------------- */
 nav{display: flex;border-bottom: 2px solid red;background: #24292F;}
@@ -130,6 +138,7 @@ img{width: 100%;}
     
 
 }
+
 
 .ex_box1_tagline{
     color: tomato;
